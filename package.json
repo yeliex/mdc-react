@@ -1,0 +1,23 @@
+{
+  "name": "material-design-react-components",
+  "version": "0.0.1",
+  "description": "Material Design UI components for React",
+  "main": "index.js",
+  "repository": "git@github.com:yeliex/mdc-react.git",
+  "author": "yeliex <yeliex@yeliex.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint --ext .js,.jsx ./"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.x.x",
+    "eslint-plugin-react": "^6.x.x",
+    "pre-commit": "^1.2.2"
+  },
+  "pre-commit": [
+    "lint"
+  ]
+}
